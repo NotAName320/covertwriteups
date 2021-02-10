@@ -56,7 +56,7 @@
     "quell": {
         "success":[
             "{attacker} gives a rousing speech, reducing unrest in the cities.",
-            "Internet bans in {attacker} largely work, because everyone is too busy playing the hot new (online) video game to care."
+            "Internet bans in {attacker} largely work, because everyone is too busy playing the hot new (offline) video game to care."
         ],
         "failure":[
             "Internet bans designed to stop propaganda in {attacker} fail, not because people are mad at the deprivation of their human rights, but because they can't play Fortnite.",
