@@ -1,0 +1,66 @@
+{
+    "coup": {
+        "criticalSuccess":[
+            "Someone tries a coup against {defender}. It's very successful. Not only does the province flip back, but the national population is outraged!",
+            "Someone successfully couped a province owned by {defender}, and national unrest increases as well!"
+        ],
+        "success":[
+            "Someone tries a coup against {defender}. It's successful! The province is now controlled by a neutral rebel government.",
+            "Someone successfully couped a province controlled by {defender}!"
+        ],
+        "failure":[
+            "There was a coup attempted against {defender}. Luckily for them, the forces gave it a second thought and disbanded, turning their ringleader in. The perpetrator is unknown.",
+            "Someone funded a coup of the regional government in {defender}. It was easily crushed."
+        ],
+        "criticalFailure":[
+            "A coup attempt was stopped before it ever got off the ground in {defender}. It looks like {attacker} was behind it!",
+            "Police in {defender} bust a coup. After some interrogation, it turns out that the rebels were funded by {attacker}!"
+        ]
+    },
+    "sabotage": {
+        "criticalSuccess":[
+            "Someone tries to sabotage {defender}'s factories. The explosion sets off a chain reaction, destroying the city's entire industrial sector!",
+            "A critical railroad in {defender} was sabotaged, crippling the nation's industry!"
+        ],
+        "success":[
+            "A factory in the {defender} capital is forced to shutdown after a ransomware attack bankrupts them. Police suspect foul play.",
+            "A key factory producing motor vehicles for the {defender} military exploded last night. Remains of an IED were found at the site."
+        ],
+        "failure":[
+            "A pressure cooker was found at a subway station underneath {defender}'s industrial district. It was defused by a bomb squad and no one was hurt.",
+            "A gunman stormed a gun factory in the capital of {defender}. Why the fuck would you do that? Needless to say, he was shot."
+        ],
+        "criticalFailure":[
+            "A hacker tried to remotely execute some code to bring down the largest manufacturer in {defender}, but he accidentally left his name in the code and the operation failed. {attacker was revealed to be behind it.}",
+            "Bombs were found in the {attacker} embassy in {defender}. Maybe {attacker} should learn the concept of a safehouse."
+        ]
+    },
+    "destabilize": {
+        "criticalSuccess":[
+            "A small demonstration protesting minor foreign policy issues turns into a weeks-long general strike in {defender}. Riot police break it up violently, and the bloody scenes make international news.",
+            "One of the top officials in the government of {defender} admitted to taking bribes. The ruling party insists that the politician was a foreign plant, but the people don't buy it and protest."
+        ],
+        "success":[
+            "Anti {defender} propaganda is spread by Facebook bots. Unrest increases massively.",
+            "{defender} politicians were accused of corruption by @WAKE_UP_ENLIGHTENED422 on Twitter. It works, because people are stupid."
+        ],
+        "failure":[
+            "{defender} officials stopped a propaganda effort by bots of unknown origin.",
+            "Someone tried spreading fake news about {defender}'s ruling party while endorsing the opposition. The ploy failed when both parties denounced the operation."
+        ],
+        "criticalFailure":[
+            "{attacker} tried sending a massive wave of internet bots to destabilize {defender}. The mass amount of data crashed the internet in {defender} for everyone, except for the bots. They were easily rooted out and banned.",
+            "Secret agents from {attacker} were spotted plastering anti-{defender} posters in the latter's capital city. They went unprosecuted because of diplomatic immunity, but were sent home with a stern look."
+        ]
+    },
+    "quell": {
+        "success":[
+            "{attacker} gives a rousing speech, reducing unrest in the cities.",
+            "Internet bans in {attacker} largely work, because everyone is too busy playing the hot new (online) video game to care."
+        ],
+        "failure":[
+            "Internet bans designed to stop propaganda in {attacker} fail, not because people are mad at the deprivation of their human rights, but because they can't play Fortnite.",
+            "The {attacker} government tried installing security cameras in everyone's house to stop rebellion. Why? Why? Why?"
+        ]
+    }
+}
